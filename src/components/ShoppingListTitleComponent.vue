@@ -1,4 +1,5 @@
 <template>
+  <div><b>JELIL INFO SHOPPINGLIST</b></div>
   <a :href="href" :aria-controls="id" role="tab" data-toggle="tab">{{ title }}
     <i class="glyphicon glyphicon-remove" @click="deleteShoppingList(id)"></i>
   </a>
